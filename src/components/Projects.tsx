@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "GitHubTracker",
+    description:
+      "Aplicación full stack para rastrear y visualizar actividad de GitHub, con arquitectura cliente-servidor y base de datos MongoDB.",
+    tech: ["React", "Vite", "Express", "MongoDB", "TypeScript"],
+    links: {
+      github: "https://github.com/reguer0/GitHubTracker",
+    },
+  },
+  {
     title: "QuickMock",
     description:
       "Herramienta open-source para crear mockups de baja fidelidad con drag-and-drop. Ideal para prototipado rápido en etapas tempranas de diseño.",
