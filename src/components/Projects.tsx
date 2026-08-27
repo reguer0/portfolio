@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "Gestor de Gastos",
+    description:
+      "Aplicación full stack para gestionar gastos personales, con autenticación, persistencia en PostgreSQL y despliegue en Vercel.",
+    tech: ["React", "TypeScript", "Vite", "Express", "PostgreSQL"],
+    links: {
+      demo: "https://gestordegastos-ten.vercel.app/",
+    },
+  },
+  {
     title: "GitHubTracker",
     description:
       "Aplicación full stack para rastrear y visualizar actividad de GitHub, con arquitectura cliente-servidor y base de datos MongoDB.",
